@@ -1,0 +1,298 @@
+        .bs-example{
+            margin: 20px;
+        }
+        /* Make the image fully responsive */
+        .carousel-inner img {
+          width: 100%;
+          height: 100%;
+        }
+
+
+     
+
+/
+	 
+	 
+<!----------ŞEHRİÖ--->
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+  
+  
+  
+  
+  
+}
+
+      /*    body    */
+
+ body {
+  background-image: url("https://thumbs.gfycat.com/UncommonHappyDorado-size_restricted.gif");
+  background-size:initial ;
+ }
+ 
+ /*            CV            */ 
+ 
+ #cv {
+	 background-color: rgba(216, 89, 72, 0.7);
+	 color: white;
+	 font-size:24 px;
+	 width: 1400px;
+	 height: 400px;
+ }
+ 
+ /*       İndex     */
+ 
+   .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  
+
+ 
+ /*       İLETİŞİM    */
+ 
+  
+  #iletisim td
+{
+  height:10px; 
+}
+#iletisim form
+{
+	align: center;
+    background: rgba(216, 89, 72, 0.5);
+    color: #fff;
+    width: 500px;
+    height: 650px;
+    padding: 30px 10px 30px 110px;
+    border: none;
+}
+
+#iletisim .h1
+{
+	font-size: 30px;
+}
+
+#iletisim span
+{
+    color: red;
+}
+
+#iletisim input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 30px;
+	width: 120px;
+    color: #fff;
+    font-size: 18px;
+}
+
+#iletisim select 
+{
+    border: none;
+    background-color: rgba(216, 89, 72, 0.6);
+  }
+  
+  
+  #iletisim .overlay
+{
+    background-color: rgba(0,0,0,.3);
+}
+
+
+#iletisim input[type="submit"] {
+    font-size: 130%;
+    font-weight: 300;
+    background: rgba(216, 89, 72, 0.7);;
+    border: none;
+    color: #fff;
+    margin-bottom: 50px;
+    cursor: pointer;
+    margin-left: 5px;
+    padding: 3px 30px 3px 30px;
+    
+}
+
+#iletisim input[type="button"]
+{
+    font-size: 110%;
+    font-weight: 400;
+    background: #00a3cc;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: -105px;
+    padding: 6px 60px 6px 60px;
+}
+
+
+
+     /*      login         */
+	 
+	 .bg-login {
+	background-color: rgba(216, 89, 72, 0.5);
+
+    color: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    border: 10px #f1f1f1;
+    position: fixed;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    h1: background-color: black;
+    h1: font-size: 20px;
+    h1: color: darkred;
+    h1: font-family: arial;
+    
+  }
+	 
+	 
+#sehrim-giris{
+	background-color: rgba(216, 89, 72, 0.5);
+}
+
+h1{
+	text-align: center;
+}
+
+.bg-image {
+  /* Full height */
+  height: 50%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+/* Images used */
+.img1 { background-image: url(".../images/slide4.jpg"); }
+.img2 { background-image: url(".../images/slide1.jpg"); }
+.img3 { background-image: url(".../images/slide2.jpg"); }
+.img4 { background-image: url(".../images/slide3.jpg"); }
+.img5 { background-image: url(".../images/slide5.jpg"); }
+.img6 { background-image: url(".../images/slide6.jpg"); }
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-family: sans-serif;
+  font-size: 16px;
+  border: 10px #f1f1f1;
+  position: fixed;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  h1: background-color: black;
+  h1: font-size: 20px;
+  h1: color: darkred;
+  h1: font-family: arial;
+  
+}
+
+
+
+	
+	/* Header Bölümü */
+
+
+#headerSection
+{
+    background: url("../images/web1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height:100vh;
+}
+
+#headerSection .overlay
+{
+    background-color: rgba(0,0,0,0);
+}
+
+#headerSection .row
+{
+    height:100vh ;
+}
+
+     /* Sehrim Section*/
+	 
+	 
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+
